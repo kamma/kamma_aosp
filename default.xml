@@ -14,7 +14,6 @@
   <project path="build" name="android_build" groups="pdk" remote="kamma" revision="master">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="manifest" name="kamma_aosp" remote="kamma" revision="master"/>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
